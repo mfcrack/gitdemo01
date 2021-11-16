@@ -11,4 +11,9 @@ public class TestController {
     public String hello(){
         return "spring boot demo";
     }
+
+    @GetMapping("/zhenyu")
+    public String zhenyu(){
+        return "hello zhenyu";
+    }
 }
