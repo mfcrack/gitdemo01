@@ -11,4 +11,9 @@ public class TestController {
     public String hello(){
         return "spring boot demo";
     }
+
+    @GetMapping("/lixiang")
+    public String lixiang(){
+        return "lixiang01";
+    }
 }
