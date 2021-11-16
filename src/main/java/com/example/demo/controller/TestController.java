@@ -16,4 +16,8 @@ public class TestController {
     public String zhenyu(){
         return "hello zhenyu";
     }
+
+    public static void main(String[] args) {
+        System.out.println("你好");
+    }
 }
